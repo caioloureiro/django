@@ -4,3 +4,5 @@ deactivate
 pip install django
 django-admin --version
 django-admin startproject learning_log .
+python manage.py migrate
+python manage.py runserver
