@@ -1,0 +1,6 @@
+python -m venv ll_env --copies 
+.\ll_env\Scripts\Activate.ps1 
+deactivate
+pip install django
+django-admin --version
+django-admin startproject learning_log .
